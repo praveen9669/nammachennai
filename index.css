@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+}
+
+.fade-in-text {
+  font-size: 160px;
+  font-weight: 800;
+  font: bold;
+  color: white;
+  margin-top: 300px;
+  font: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+
+.fade-in-text h1:hover {
+  -webkit-text-stroke: 4px #fff;
+  color: transparent;
+}
+
+.fade-in-text a {
+  font-size: 20px;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 6px 30px;
+  padding-top: 6px;
+  border-radius: 50px;
+
+
+}
+
+.fade-in-text a:hover {
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.fade-in-text {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 75px;
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+  -o-animation: fadeIn 8s;
+  -ms-animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav1 {
+  line-height: 10px;
+  height: 10px;
+}
+
+.nav1 ul {
+  float: right;
+  margin-right: 30px;
+}
+
+.nav1 ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.8s all;
+}
+
+.nav1 ul li:hover {
+  border: 2px;
+  color: #000000;
+  background-color: #000000d2;
+  border-radius: 20px;
+  padding: 10px 30px;
+
+}
+
+.nav1 ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  .fade-in-text {
+    font-size: 17px;
+  }
+
+  .fade-in-text h1:hover {
+    -webkit-text-stroke: .5px #fff;
+    color: transparent;
+  }
+
+  .fade-in-text a {
+    font-size: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 4px 15px;
+    padding-top: 4px;
+    border-radius: 50px;
+
+
+  }
+
+  .fade-in-text a:hover {
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    background-color: white;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .nav1 ul {
+    display: none;
+  }
+}
